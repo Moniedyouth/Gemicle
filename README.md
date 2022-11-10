@@ -62,6 +62,6 @@ The website 'Redmine' is used for registration tests and verifying different ele
 
   ```
 
-  3.  Input at the terminal at the `Cypress` folder `npm run cypress:open` and you can see all you `.feature` tests and run them.
+  3.  Input at the terminal at the `Cypress` folder `npx cypress open` and you can see all you `.feature` tests and run them.
 
  
