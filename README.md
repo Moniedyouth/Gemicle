@@ -56,7 +56,11 @@ The website 'Redmine' is used for registration tests and verifying different ele
 
   beforeEach(() => {
 
-      cy.visit('https://www.redmine.org/');
+      const options = {
+        url: 'https://www.redmine.org/',
+        headers: { 'Accept-Language': 'ru-RU,ru;q=0.9' }
+    }
+    cy.visit(options)
 
   });
 
